@@ -1,0 +1,24 @@
+comp3@comp3-OptiPlex-3020:~$ cd A7_Bsort
+comp3@comp3-OptiPlex-3020:~/A7_Bsort$ nasm -f elf64 A7_bsort.asm
+comp3@comp3-OptiPlex-3020:~/A7_Bsort$ ld -o A7_bsort A7_bsort.o
+comp3@comp3-OptiPlex-3020:~/A7_Bsort$ ./A7_bsort
+
+
+
+
+ML assignment 07 :- Bubble sort using file operations
+---------------------------------------------------
+
+Enter filename of input data	: dataip.txt
+
+Sorting using bubble sort Operation successful.
+Output stored in same file...
+
+12345
+
+Exit from program...
+
+
+comp3@comp3-OptiPlex-3020:~/A7_Bsort$ ^C
+comp3@comp3-OptiPlex-3020:~/A7_Bsort$ 
+

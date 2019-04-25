@@ -1,0 +1,18 @@
+admin@DYPIEMR-203:~$ nasm -f elf64 fact.asm
+admin@DYPIEMR-203:~$ ld -o fact fact.o
+admin@DYPIEMR-203:~$ ./fact
+
+========================================================================
+
+Assignment No:9 To Calculate Factorial of Number.
+
+========================================================================
+
+Enter Input number 
+0000000000000006
+
+Factorial of Number is: 
+00000000000002D0
+admin@DYPIEMR-203:~$ 
+
+

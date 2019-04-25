@@ -1,0 +1,11 @@
+4
+5
+1
+2
+3
+
+
+Sorting using bubble sort Operation successful.
+Output stored in same file...
+
+12345
