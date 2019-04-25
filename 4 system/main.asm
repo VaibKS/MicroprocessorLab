@@ -57,8 +57,9 @@ section .text
 	mov [crO], eax
 
 	bt eax, 0
-
 	jc loop1
+	; used together
+	
 	print real1, real1_len
 	jmp next
 	loop1:
@@ -126,7 +127,7 @@ display:
 		mov rbx, 16
 		div rbx
 		cmp dl, 09h
-		jbe skip2
+		jbe skip2 ; if less than
 		add dl, 07h
 
 	skip2:

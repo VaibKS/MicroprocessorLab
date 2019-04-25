@@ -49,7 +49,7 @@ section .text
 		je muloop
 		addloop:
 			add rax, rbx
-		loop addloop
+			loop addloop
 
 		muloop:
 			mov rbx, rax

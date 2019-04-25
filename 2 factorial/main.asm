@@ -28,9 +28,8 @@ section .data
 
 section .bss
 	num resb 16
-	Factorial resq 1
 	answer resb 16
-
+	Factorial resq 1
 
 section .text
 	global _start
@@ -65,6 +64,9 @@ exit2:
 	pop rcx
 	ret
 
+
+
+
 asciitohex:
 	mov rsi, num
 	mov rcx, 16
@@ -86,6 +88,7 @@ skip1:
 	jnz loop1
 	ret
 
+	answer resb 16
 display:
 	mov rsi, answer + 15
 	mov rcx, 16
